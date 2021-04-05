@@ -6,8 +6,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 2
 Title "Arisutea Keyboard"
-Date "2021-03-27"
-Rev "0.6"
+Date "2021-04-05"
+Rev "STM32 0.1"
 Comp "3x6 Design"
 Comment1 ""
 Comment2 ""
@@ -58,6 +58,8 @@ $Comp
 L Switch:SW_Push SW2
 U 1 1 5C520197
 P 3850 4700
+AR Path="/5C520197" Ref="SW2"  Part="1" 
+AR Path="/5C4EF302/5C520197" Ref="SW2"  Part="1" 
 F 0 "SW2" H 3850 4985 50  0000 C CNN
 F 1 "SW_Push" H 3850 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.50u" H 3850 4900 50  0001 C CNN
@@ -85,6 +87,8 @@ $Comp
 L Switch:SW_Push SW7
 U 1 1 5C5205B0
 P 4850 4700
+AR Path="/5C5205B0" Ref="SW7"  Part="1" 
+AR Path="/5C4EF302/5C5205B0" Ref="SW7"  Part="1" 
 F 0 "SW7" H 4850 4985 50  0000 C CNN
 F 1 "SW_Push" H 4850 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 4850 4900 50  0001 C CNN
@@ -129,6 +133,8 @@ $Comp
 L Switch:SW_Push SW8
 U 1 1 5C52365C
 P 4850 5750
+AR Path="/5C52365C" Ref="SW8"  Part="1" 
+AR Path="/5C4EF302/5C52365C" Ref="SW8"  Part="1" 
 F 0 "SW8" H 4850 6035 50  0000 C CNN
 F 1 "SW_Push" H 4850 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 4850 5950 50  0001 C CNN
@@ -158,6 +164,8 @@ $Comp
 L Switch:SW_Push SW11
 U 1 1 5C63DB01
 P 5500 4700
+AR Path="/5C63DB01" Ref="SW11"  Part="1" 
+AR Path="/5C4EF302/5C63DB01" Ref="SW11"  Part="1" 
 F 0 "SW11" H 5500 4985 50  0000 C CNN
 F 1 "SW_Push" H 5500 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 5500 4900 50  0001 C CNN
@@ -183,6 +191,8 @@ $Comp
 L Switch:SW_Push SW12
 U 1 1 5C63DB13
 P 5500 5750
+AR Path="/5C63DB13" Ref="SW12"  Part="1" 
+AR Path="/5C4EF302/5C63DB13" Ref="SW12"  Part="1" 
 F 0 "SW12" H 5500 6035 50  0000 C CNN
 F 1 "SW_Push" H 5500 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 5500 5950 50  0001 C CNN
@@ -210,6 +220,8 @@ $Comp
 L Switch:SW_Push SW16
 U 1 1 5C63E35C
 P 6150 4700
+AR Path="/5C63E35C" Ref="SW16"  Part="1" 
+AR Path="/5C4EF302/5C63E35C" Ref="SW16"  Part="1" 
 F 0 "SW16" H 6150 4985 50  0000 C CNN
 F 1 "SW_Push" H 6150 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6150 4900 50  0001 C CNN
@@ -235,6 +247,8 @@ $Comp
 L Switch:SW_Push SW17
 U 1 1 5C63E36E
 P 6150 5750
+AR Path="/5C63E36E" Ref="SW17"  Part="1" 
+AR Path="/5C4EF302/5C63E36E" Ref="SW17"  Part="1" 
 F 0 "SW17" H 6150 6035 50  0000 C CNN
 F 1 "SW_Push" H 6150 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6150 5950 50  0001 C CNN
@@ -262,6 +276,8 @@ $Comp
 L Switch:SW_Push SW20
 U 1 1 5C63F117
 P 6800 4700
+AR Path="/5C63F117" Ref="SW20"  Part="1" 
+AR Path="/5C4EF302/5C63F117" Ref="SW20"  Part="1" 
 F 0 "SW20" H 6800 4985 50  0000 C CNN
 F 1 "SW_Push" H 6800 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6800 4900 50  0001 C CNN
@@ -287,6 +303,8 @@ $Comp
 L Switch:SW_Push SW21
 U 1 1 5C63F129
 P 6800 5750
+AR Path="/5C63F129" Ref="SW21"  Part="1" 
+AR Path="/5C4EF302/5C63F129" Ref="SW21"  Part="1" 
 F 0 "SW21" H 6800 6035 50  0000 C CNN
 F 1 "SW_Push" H 6800 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6800 5950 50  0001 C CNN
@@ -314,6 +332,8 @@ $Comp
 L Switch:SW_Push SW25
 U 1 1 5C6405F9
 P 7450 4700
+AR Path="/5C6405F9" Ref="SW25"  Part="1" 
+AR Path="/5C4EF302/5C6405F9" Ref="SW25"  Part="1" 
 F 0 "SW25" H 7450 4985 50  0000 C CNN
 F 1 "SW_Push" H 7450 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 7450 4900 50  0001 C CNN
@@ -339,6 +359,8 @@ $Comp
 L Switch:SW_Push SW26
 U 1 1 5C64060B
 P 7450 5750
+AR Path="/5C64060B" Ref="SW26"  Part="1" 
+AR Path="/5C4EF302/5C64060B" Ref="SW26"  Part="1" 
 F 0 "SW26" H 7450 6035 50  0000 C CNN
 F 1 "SW_Push" H 7450 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 7450 5950 50  0001 C CNN
@@ -366,6 +388,8 @@ $Comp
 L Switch:SW_Push SW30
 U 1 1 5C64247D
 P 8100 4700
+AR Path="/5C64247D" Ref="SW30"  Part="1" 
+AR Path="/5C4EF302/5C64247D" Ref="SW30"  Part="1" 
 F 0 "SW30" H 8100 4985 50  0000 C CNN
 F 1 "SW_Push" H 8100 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8100 4900 50  0001 C CNN
@@ -391,6 +415,8 @@ $Comp
 L Switch:SW_Push SW31
 U 1 1 5C64248F
 P 8100 5750
+AR Path="/5C64248F" Ref="SW31"  Part="1" 
+AR Path="/5C4EF302/5C64248F" Ref="SW31"  Part="1" 
 F 0 "SW31" H 8100 6035 50  0000 C CNN
 F 1 "SW_Push" H 8100 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8100 5950 50  0001 C CNN
@@ -418,6 +444,8 @@ $Comp
 L Switch:SW_Push SW34
 U 1 1 5C644B72
 P 8750 4700
+AR Path="/5C644B72" Ref="SW34"  Part="1" 
+AR Path="/5C4EF302/5C644B72" Ref="SW34"  Part="1" 
 F 0 "SW34" H 8750 4985 50  0000 C CNN
 F 1 "SW_Push" H 8750 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8750 4900 50  0001 C CNN
@@ -443,6 +471,8 @@ $Comp
 L Switch:SW_Push SW35
 U 1 1 5C644B84
 P 8750 5750
+AR Path="/5C644B84" Ref="SW35"  Part="1" 
+AR Path="/5C4EF302/5C644B84" Ref="SW35"  Part="1" 
 F 0 "SW35" H 8750 6035 50  0000 C CNN
 F 1 "SW_Push" H 8750 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8750 5950 50  0001 C CNN
@@ -470,6 +500,8 @@ $Comp
 L Switch:SW_Push SW39
 U 1 1 5C647DDF
 P 9400 4700
+AR Path="/5C647DDF" Ref="SW39"  Part="1" 
+AR Path="/5C4EF302/5C647DDF" Ref="SW39"  Part="1" 
 F 0 "SW39" H 9400 4985 50  0000 C CNN
 F 1 "SW_Push" H 9400 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 9400 4900 50  0001 C CNN
@@ -495,6 +527,8 @@ $Comp
 L Switch:SW_Push SW40
 U 1 1 5C647DF1
 P 9400 5750
+AR Path="/5C647DF1" Ref="SW40"  Part="1" 
+AR Path="/5C4EF302/5C647DF1" Ref="SW40"  Part="1" 
 F 0 "SW40" H 9400 6035 50  0000 C CNN
 F 1 "SW_Push" H 9400 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 9400 5950 50  0001 C CNN
@@ -522,6 +556,8 @@ $Comp
 L Switch:SW_Push SW43
 U 1 1 5C64BD3B
 P 10050 4700
+AR Path="/5C64BD3B" Ref="SW43"  Part="1" 
+AR Path="/5C4EF302/5C64BD3B" Ref="SW43"  Part="1" 
 F 0 "SW43" H 10050 4985 50  0000 C CNN
 F 1 "SW_Push" H 10050 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10050 4900 50  0001 C CNN
@@ -547,6 +583,8 @@ $Comp
 L Switch:SW_Push SW44
 U 1 1 5C64BD4D
 P 10050 5750
+AR Path="/5C64BD4D" Ref="SW44"  Part="1" 
+AR Path="/5C4EF302/5C64BD4D" Ref="SW44"  Part="1" 
 F 0 "SW44" H 10050 6035 50  0000 C CNN
 F 1 "SW_Push" H 10050 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10050 5950 50  0001 C CNN
@@ -574,6 +612,8 @@ $Comp
 L Switch:SW_Push SW48
 U 1 1 5C650AAD
 P 10700 4700
+AR Path="/5C650AAD" Ref="SW48"  Part="1" 
+AR Path="/5C4EF302/5C650AAD" Ref="SW48"  Part="1" 
 F 0 "SW48" H 10700 4985 50  0000 C CNN
 F 1 "SW_Push" H 10700 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10700 4900 50  0001 C CNN
@@ -599,6 +639,8 @@ $Comp
 L Switch:SW_Push SW49
 U 1 1 5C650ABF
 P 10700 5750
+AR Path="/5C650ABF" Ref="SW49"  Part="1" 
+AR Path="/5C4EF302/5C650ABF" Ref="SW49"  Part="1" 
 F 0 "SW49" H 10700 6035 50  0000 C CNN
 F 1 "SW_Push" H 10700 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10700 5950 50  0001 C CNN
@@ -626,6 +668,8 @@ $Comp
 L Switch:SW_Push SW52
 U 1 1 5C6567D4
 P 11350 4700
+AR Path="/5C6567D4" Ref="SW52"  Part="1" 
+AR Path="/5C4EF302/5C6567D4" Ref="SW52"  Part="1" 
 F 0 "SW52" H 11350 4985 50  0000 C CNN
 F 1 "SW_Push" H 11350 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 11350 4900 50  0001 C CNN
@@ -651,6 +695,8 @@ $Comp
 L Switch:SW_Push SW53
 U 1 1 5C6567E6
 P 11350 5750
+AR Path="/5C6567E6" Ref="SW53"  Part="1" 
+AR Path="/5C4EF302/5C6567E6" Ref="SW53"  Part="1" 
 F 0 "SW53" H 11350 6035 50  0000 C CNN
 F 1 "SW_Push" H 11350 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 11350 5950 50  0001 C CNN
@@ -678,6 +724,8 @@ $Comp
 L Switch:SW_Push SW56
 U 1 1 5C65D613
 P 12000 4700
+AR Path="/5C65D613" Ref="SW56"  Part="1" 
+AR Path="/5C4EF302/5C65D613" Ref="SW56"  Part="1" 
 F 0 "SW56" H 12000 4985 50  0000 C CNN
 F 1 "SW_Push" H 12000 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 12000 4900 50  0001 C CNN
@@ -703,6 +751,8 @@ $Comp
 L Switch:SW_Push SW57
 U 1 1 5C65D625
 P 12000 5750
+AR Path="/5C65D625" Ref="SW57"  Part="1" 
+AR Path="/5C4EF302/5C65D625" Ref="SW57"  Part="1" 
 F 0 "SW57" H 12000 6035 50  0000 C CNN
 F 1 "SW_Push" H 12000 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_2.25u_RevStab" H 12000 5950 50  0001 C CNN
@@ -730,6 +780,8 @@ $Comp
 L Switch:SW_Push SW60
 U 1 1 5C6656F5
 P 12650 4700
+AR Path="/5C6656F5" Ref="SW60"  Part="1" 
+AR Path="/5C4EF302/5C6656F5" Ref="SW60"  Part="1" 
 F 0 "SW60" H 12650 4985 50  0000 C CNN
 F 1 "SW_Push" H 12650 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.50u" H 12650 4900 50  0001 C CNN
@@ -757,6 +809,8 @@ $Comp
 L Switch:SW_Push SW63
 U 1 1 5C66EC7D
 P 13300 4700
+AR Path="/5C66EC7D" Ref="SW63"  Part="1" 
+AR Path="/5C4EF302/5C66EC7D" Ref="SW63"  Part="1" 
 F 0 "SW63" H 13300 4985 50  0000 C CNN
 F 1 "SW_Push" H 13300 4894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 13300 4900 50  0001 C CNN
@@ -782,6 +836,8 @@ $Comp
 L Switch:SW_Push SW64
 U 1 1 5C66EC8F
 P 13300 5750
+AR Path="/5C66EC8F" Ref="SW64"  Part="1" 
+AR Path="/5C4EF302/5C66EC8F" Ref="SW64"  Part="1" 
 F 0 "SW64" H 13300 6035 50  0000 C CNN
 F 1 "SW_Push" H 13300 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 13300 5950 50  0001 C CNN
@@ -1130,6 +1186,8 @@ $Comp
 L Switch:SW_Push SW66
 U 1 1 5C66EC9E
 P 13300 7750
+AR Path="/5C66EC9E" Ref="SW66"  Part="1" 
+AR Path="/5C4EF302/5C66EC9E" Ref="SW66"  Part="1" 
 F 0 "SW66" H 13300 8035 50  0000 C CNN
 F 1 "SW_Push" H 13300 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 13300 7950 50  0001 C CNN
@@ -1143,6 +1201,8 @@ $Comp
 L Switch:SW_Push SW65
 U 1 1 5C66EC96
 P 13300 6750
+AR Path="/5C66EC96" Ref="SW65"  Part="1" 
+AR Path="/5C4EF302/5C66EC96" Ref="SW65"  Part="1" 
 F 0 "SW65" H 13300 7035 50  0000 C CNN
 F 1 "SW_Push" H 13300 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 13300 6950 50  0001 C CNN
@@ -1182,6 +1242,8 @@ $Comp
 L Switch:SW_Push SW62
 U 1 1 5C665716
 P 12650 7750
+AR Path="/5C665716" Ref="SW62"  Part="1" 
+AR Path="/5C4EF302/5C665716" Ref="SW62"  Part="1" 
 F 0 "SW62" H 12650 8035 50  0000 C CNN
 F 1 "SW_Push" H 12650 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 12650 7950 50  0001 C CNN
@@ -1195,6 +1257,8 @@ $Comp
 L Switch:SW_Push SW61
 U 1 1 5C66570E
 P 12650 6750
+AR Path="/5C66570E" Ref="SW61"  Part="1" 
+AR Path="/5C4EF302/5C66570E" Ref="SW61"  Part="1" 
 F 0 "SW61" H 12650 7035 50  0000 C CNN
 F 1 "SW_Push" H 12650 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 12650 6950 50  0001 C CNN
@@ -1220,6 +1284,8 @@ $Comp
 L Switch:SW_Push SW58
 U 1 1 5C65D634
 P 12000 7750
+AR Path="/5C65D634" Ref="SW58"  Part="1" 
+AR Path="/5C4EF302/5C65D634" Ref="SW58"  Part="1" 
 F 0 "SW58" H 12000 8035 50  0000 C CNN
 F 1 "SW_Push" H 12000 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 12000 7950 50  0001 C CNN
@@ -1247,6 +1313,8 @@ $Comp
 L Switch:SW_Push SW54
 U 1 1 5C6567ED
 P 11350 6750
+AR Path="/5C6567ED" Ref="SW54"  Part="1" 
+AR Path="/5C4EF302/5C6567ED" Ref="SW54"  Part="1" 
 F 0 "SW54" H 11350 7035 50  0000 C CNN
 F 1 "SW_Push" H 11350 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.75u" H 11350 6950 50  0001 C CNN
@@ -1274,6 +1342,8 @@ $Comp
 L Switch:SW_Push SW50
 U 1 1 5C650AC6
 P 10700 6750
+AR Path="/5C650AC6" Ref="SW50"  Part="1" 
+AR Path="/5C4EF302/5C650AC6" Ref="SW50"  Part="1" 
 F 0 "SW50" H 10700 7035 50  0000 C CNN
 F 1 "SW_Push" H 10700 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10700 6950 50  0001 C CNN
@@ -1316,6 +1386,8 @@ $Comp
 L Switch:SW_Push SW46
 U 1 1 5C64BD5C
 P 10050 7750
+AR Path="/5C64BD5C" Ref="SW46"  Part="1" 
+AR Path="/5C4EF302/5C64BD5C" Ref="SW46"  Part="1" 
 F 0 "SW46" H 10050 8035 50  0000 C CNN
 F 1 "SW_Push" H 10050 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10050 7950 50  0001 C CNN
@@ -1329,6 +1401,8 @@ $Comp
 L Switch:SW_Push SW45
 U 1 1 5C64BD54
 P 10050 6750
+AR Path="/5C64BD54" Ref="SW45"  Part="1" 
+AR Path="/5C4EF302/5C64BD54" Ref="SW45"  Part="1" 
 F 0 "SW45" H 10050 7035 50  0000 C CNN
 F 1 "SW_Push" H 10050 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10050 6950 50  0001 C CNN
@@ -1356,6 +1430,8 @@ $Comp
 L Switch:SW_Push SW41
 U 1 1 5C647DF8
 P 9400 6750
+AR Path="/5C647DF8" Ref="SW41"  Part="1" 
+AR Path="/5C4EF302/5C647DF8" Ref="SW41"  Part="1" 
 F 0 "SW41" H 9400 7035 50  0000 C CNN
 F 1 "SW_Push" H 9400 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 9400 6950 50  0001 C CNN
@@ -1398,6 +1474,8 @@ $Comp
 L Switch:SW_Push SW37
 U 1 1 5C644B93
 P 8750 7750
+AR Path="/5C644B93" Ref="SW37"  Part="1" 
+AR Path="/5C4EF302/5C644B93" Ref="SW37"  Part="1" 
 F 0 "SW37" H 8750 8035 50  0000 C CNN
 F 1 "SW_Push" H 8750 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_2.75u_RevStab" H 8750 7950 50  0001 C CNN
@@ -1411,6 +1489,8 @@ $Comp
 L Switch:SW_Push SW36
 U 1 1 5C644B8B
 P 8750 6750
+AR Path="/5C644B8B" Ref="SW36"  Part="1" 
+AR Path="/5C4EF302/5C644B8B" Ref="SW36"  Part="1" 
 F 0 "SW36" H 8750 7035 50  0000 C CNN
 F 1 "SW_Push" H 8750 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8750 6950 50  0001 C CNN
@@ -1438,6 +1518,8 @@ $Comp
 L Switch:SW_Push SW32
 U 1 1 5C642496
 P 8100 6750
+AR Path="/5C642496" Ref="SW32"  Part="1" 
+AR Path="/5C4EF302/5C642496" Ref="SW32"  Part="1" 
 F 0 "SW32" H 8100 7035 50  0000 C CNN
 F 1 "SW_Push" H 8100 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8100 6950 50  0001 C CNN
@@ -1480,6 +1562,8 @@ $Comp
 L Switch:SW_Push SW28
 U 1 1 5C64061A
 P 7450 7750
+AR Path="/5C64061A" Ref="SW28"  Part="1" 
+AR Path="/5C4EF302/5C64061A" Ref="SW28"  Part="1" 
 F 0 "SW28" H 7450 8035 50  0000 C CNN
 F 1 "SW_Push" H 7450 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 7450 7950 50  0001 C CNN
@@ -1493,6 +1577,8 @@ $Comp
 L Switch:SW_Push SW27
 U 1 1 5C640612
 P 7450 6750
+AR Path="/5C640612" Ref="SW27"  Part="1" 
+AR Path="/5C4EF302/5C640612" Ref="SW27"  Part="1" 
 F 0 "SW27" H 7450 7035 50  0000 C CNN
 F 1 "SW_Push" H 7450 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 7450 6950 50  0001 C CNN
@@ -1535,6 +1621,8 @@ $Comp
 L Switch:SW_Push SW23
 U 1 1 5C63F138
 P 6800 7750
+AR Path="/5C63F138" Ref="SW23"  Part="1" 
+AR Path="/5C4EF302/5C63F138" Ref="SW23"  Part="1" 
 F 0 "SW23" H 6800 8035 50  0000 C CNN
 F 1 "SW_Push" H 6800 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_2.00u_RevStab" H 6800 7950 50  0001 C CNN
@@ -1548,6 +1636,8 @@ $Comp
 L Switch:SW_Push SW22
 U 1 1 5C63F130
 P 6800 6750
+AR Path="/5C63F130" Ref="SW22"  Part="1" 
+AR Path="/5C4EF302/5C63F130" Ref="SW22"  Part="1" 
 F 0 "SW22" H 6800 7035 50  0000 C CNN
 F 1 "SW_Push" H 6800 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6800 6950 50  0001 C CNN
@@ -1575,6 +1665,8 @@ $Comp
 L Switch:SW_Push SW18
 U 1 1 5C63E375
 P 6150 6750
+AR Path="/5C63E375" Ref="SW18"  Part="1" 
+AR Path="/5C4EF302/5C63E375" Ref="SW18"  Part="1" 
 F 0 "SW18" H 6150 7035 50  0000 C CNN
 F 1 "SW_Push" H 6150 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6150 6950 50  0001 C CNN
@@ -1617,6 +1709,8 @@ $Comp
 L Switch:SW_Push SW14
 U 1 1 5C63DB22
 P 5500 7750
+AR Path="/5C63DB22" Ref="SW14"  Part="1" 
+AR Path="/5C4EF302/5C63DB22" Ref="SW14"  Part="1" 
 F 0 "SW14" H 5500 8035 50  0000 C CNN
 F 1 "SW_Push" H 5500 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 5500 7950 50  0001 C CNN
@@ -1630,6 +1724,8 @@ $Comp
 L Switch:SW_Push SW13
 U 1 1 5C63DB1A
 P 5500 6750
+AR Path="/5C63DB1A" Ref="SW13"  Part="1" 
+AR Path="/5C4EF302/5C63DB1A" Ref="SW13"  Part="1" 
 F 0 "SW13" H 5500 7035 50  0000 C CNN
 F 1 "SW_Push" H 5500 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 5500 6950 50  0001 C CNN
@@ -1658,6 +1754,8 @@ $Comp
 L Switch:SW_Push SW9
 U 1 1 5C5236A2
 P 4850 6750
+AR Path="/5C5236A2" Ref="SW9"  Part="1" 
+AR Path="/5C4EF302/5C5236A2" Ref="SW9"  Part="1" 
 F 0 "SW9" H 4850 7035 50  0000 C CNN
 F 1 "SW_Push" H 4850 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 4850 6950 50  0001 C CNN
@@ -1698,6 +1796,8 @@ $Comp
 L Switch:SW_Push SW5
 U 1 1 5C521001
 P 3850 7750
+AR Path="/5C521001" Ref="SW5"  Part="1" 
+AR Path="/5C4EF302/5C521001" Ref="SW5"  Part="1" 
 F 0 "SW5" H 3850 8035 50  0000 C CNN
 F 1 "SW_Push" H 3850 7944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.50u" H 3850 7950 50  0001 C CNN
@@ -1711,6 +1811,8 @@ $Comp
 L Switch:SW_Push SW4
 U 1 1 5C520F5D
 P 3850 6750
+AR Path="/5C520F5D" Ref="SW4"  Part="1" 
+AR Path="/5C4EF302/5C520F5D" Ref="SW4"  Part="1" 
 F 0 "SW4" H 3850 7035 50  0000 C CNN
 F 1 "SW_Push" H 3850 6944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_2.25u" H 3850 6950 50  0001 C CNN
@@ -1730,6 +1832,8 @@ $Comp
 L Switch:SW_Push SW3
 U 1 1 5FB4B095
 P 3850 5750
+AR Path="/5FB4B095" Ref="SW3"  Part="1" 
+AR Path="/5C4EF302/5FB4B095" Ref="SW3"  Part="1" 
 F 0 "SW3" H 3850 6035 50  0000 C CNN
 F 1 "SW_Push" H 3850 5944 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.75u" H 3850 5950 50  0001 C CNN
@@ -2036,6 +2140,8 @@ $Comp
 L Switch:SW_Push SW6
 U 1 1 5C51FC52
 P 4850 3700
+AR Path="/5C51FC52" Ref="SW6"  Part="1" 
+AR Path="/5C4EF302/5C51FC52" Ref="SW6"  Part="1" 
 F 0 "SW6" H 4850 3985 50  0000 C CNN
 F 1 "SW_Push" H 4850 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 4850 3900 50  0001 C CNN
@@ -2049,6 +2155,8 @@ $Comp
 L Switch:SW_Push SW10
 U 1 1 5C63DAF2
 P 5500 3700
+AR Path="/5C63DAF2" Ref="SW10"  Part="1" 
+AR Path="/5C4EF302/5C63DAF2" Ref="SW10"  Part="1" 
 F 0 "SW10" H 5500 3985 50  0000 C CNN
 F 1 "SW_Push" H 5500 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 5500 3900 50  0001 C CNN
@@ -2062,6 +2170,8 @@ $Comp
 L Switch:SW_Push SW15
 U 1 1 5C63E34D
 P 6150 3700
+AR Path="/5C63E34D" Ref="SW15"  Part="1" 
+AR Path="/5C4EF302/5C63E34D" Ref="SW15"  Part="1" 
 F 0 "SW15" H 6150 3985 50  0000 C CNN
 F 1 "SW_Push" H 6150 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6150 3900 50  0001 C CNN
@@ -2075,6 +2185,8 @@ $Comp
 L Switch:SW_Push SW19
 U 1 1 5C63F108
 P 6800 3700
+AR Path="/5C63F108" Ref="SW19"  Part="1" 
+AR Path="/5C4EF302/5C63F108" Ref="SW19"  Part="1" 
 F 0 "SW19" H 6800 3985 50  0000 C CNN
 F 1 "SW_Push" H 6800 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 6800 3900 50  0001 C CNN
@@ -2088,6 +2200,8 @@ $Comp
 L Switch:SW_Push SW24
 U 1 1 5C6405EA
 P 7450 3700
+AR Path="/5C6405EA" Ref="SW24"  Part="1" 
+AR Path="/5C4EF302/5C6405EA" Ref="SW24"  Part="1" 
 F 0 "SW24" H 7450 3985 50  0000 C CNN
 F 1 "SW_Push" H 7450 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 7450 3900 50  0001 C CNN
@@ -2101,6 +2215,8 @@ $Comp
 L Switch:SW_Push SW29
 U 1 1 5C64246E
 P 8100 3700
+AR Path="/5C64246E" Ref="SW29"  Part="1" 
+AR Path="/5C4EF302/5C64246E" Ref="SW29"  Part="1" 
 F 0 "SW29" H 8100 3985 50  0000 C CNN
 F 1 "SW_Push" H 8100 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8100 3900 50  0001 C CNN
@@ -2114,6 +2230,8 @@ $Comp
 L Switch:SW_Push SW33
 U 1 1 5C644B63
 P 8750 3700
+AR Path="/5C644B63" Ref="SW33"  Part="1" 
+AR Path="/5C4EF302/5C644B63" Ref="SW33"  Part="1" 
 F 0 "SW33" H 8750 3985 50  0000 C CNN
 F 1 "SW_Push" H 8750 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 8750 3900 50  0001 C CNN
@@ -2127,6 +2245,8 @@ $Comp
 L Switch:SW_Push SW38
 U 1 1 5C647DD0
 P 9400 3700
+AR Path="/5C647DD0" Ref="SW38"  Part="1" 
+AR Path="/5C4EF302/5C647DD0" Ref="SW38"  Part="1" 
 F 0 "SW38" H 9400 3985 50  0000 C CNN
 F 1 "SW_Push" H 9400 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 9400 3900 50  0001 C CNN
@@ -2140,6 +2260,8 @@ $Comp
 L Switch:SW_Push SW42
 U 1 1 5C64BD2C
 P 10050 3700
+AR Path="/5C64BD2C" Ref="SW42"  Part="1" 
+AR Path="/5C4EF302/5C64BD2C" Ref="SW42"  Part="1" 
 F 0 "SW42" H 10050 3985 50  0000 C CNN
 F 1 "SW_Push" H 10050 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10050 3900 50  0001 C CNN
@@ -2153,6 +2275,8 @@ $Comp
 L Switch:SW_Push SW47
 U 1 1 5C650A9E
 P 10700 3700
+AR Path="/5C650A9E" Ref="SW47"  Part="1" 
+AR Path="/5C4EF302/5C650A9E" Ref="SW47"  Part="1" 
 F 0 "SW47" H 10700 3985 50  0000 C CNN
 F 1 "SW_Push" H 10700 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 10700 3900 50  0001 C CNN
@@ -2166,6 +2290,8 @@ $Comp
 L Switch:SW_Push SW51
 U 1 1 5C6567C5
 P 11350 3700
+AR Path="/5C6567C5" Ref="SW51"  Part="1" 
+AR Path="/5C4EF302/5C6567C5" Ref="SW51"  Part="1" 
 F 0 "SW51" H 11350 3985 50  0000 C CNN
 F 1 "SW_Push" H 11350 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 11350 3900 50  0001 C CNN
@@ -2179,6 +2305,8 @@ $Comp
 L Switch:SW_Push SW55
 U 1 1 5C65D604
 P 12000 3700
+AR Path="/5C65D604" Ref="SW55"  Part="1" 
+AR Path="/5C4EF302/5C65D604" Ref="SW55"  Part="1" 
 F 0 "SW55" H 12000 3985 50  0000 C CNN
 F 1 "SW_Push" H 12000 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 12000 3900 50  0001 C CNN
@@ -2192,6 +2320,8 @@ $Comp
 L Switch:SW_Push SW59
 U 1 1 5F94250B
 P 12650 3700
+AR Path="/5F94250B" Ref="SW59"  Part="1" 
+AR Path="/5C4EF302/5F94250B" Ref="SW59"  Part="1" 
 F 0 "SW59" H 12650 3985 50  0000 C CNN
 F 1 "SW_Push" H 12650 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_2.00u" H 12650 3900 50  0001 C CNN
@@ -2205,6 +2335,8 @@ $Comp
 L Switch:SW_Push SW1
 U 1 1 5C51EE71
 P 3850 3700
+AR Path="/5C51EE71" Ref="SW1"  Part="1" 
+AR Path="/5C4EF302/5C51EE71" Ref="SW1"  Part="1" 
 F 0 "SW1" H 3850 3985 50  0000 C CNN
 F 1 "SW_Push" H 3850 3894 50  0000 C CNN
 F 2 "arisutea:SW_Hotswap_Kailh_1.00u" H 3850 3900 50  0001 C CNN
