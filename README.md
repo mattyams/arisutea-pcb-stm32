@@ -1,16 +1,6 @@
+# STM32 VERSION VERY MUCH ALPHA!
 # THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING!
-- [x] Acrylic Case assembled and tested on original design 03/06/21
-- [x] v0.4 PCBs ordered 03/07/21
-- [x] Second Acrylic Case ordered 03/07/21
-- [X] Assemble FR4 Case to original design 03/14/21
-- [X] Assemble Arisutea PCB once received 03/16/21
-- [X] Assemble Acrylic Case to Arisutea design 03/27/21
-- [X] Assemble FR4 Case to Arisutea design 03/27/21
-- [X] v0.6 PCBs ordered 03/27/21
-- [ ] Assemble Arisutea v0.6 PCB once received
-- [ ] Third Acrylic Case ordered for LEDs
-- [ ] Assemble Acrylic Case to Arisutea v0.6 design
-- [X] Edit QMK firmware for Arisutea design 03/29/21
+
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
 ## Disclaimer: Use these files at your own risk.
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
@@ -18,15 +8,15 @@
 Since the layout has been modified yet again I decided to give the project a new name, Arisutea, which translates to Alistair. Obviously keeping the theme running here. 
 
 Key modifications to the PCB:
+- STM32F072 MCU
 - Added in Kailh Hotswap sockets.
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
-- Added underglow LED strip support (v0.6 - not tested - on order)
 - Added LED indicators for CAPS and NUM lock as well as layer. (v0.6 - not tested - on order)
 - Updated JSON layout file for this particular keyboard.
 - Original mounting holes have been widened to allow for M2+ standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
-
+<!-- 
 ![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom.png)
 ![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top.png)
 ![Arisutea-assembled](https://i.imgur.com/b7rdr05.jpg)
@@ -73,4 +63,4 @@ Download the gerber and BOM files under [releases](https://github.com/mattyams/a
 
 ## PCB Assembly
 For the components required, you may refer to the bill of materials included along with the release as reference or load up the design file in KiCad.
-All the components can be soldered using a regular soldering iron, though soldering the USB-C receptacle might be the biggest hurdle. I have made an adjustment to the USB footprint to allow for a little more error when handsoldering. If needed, the BOM and POS file can be used on JLCPCB to assemble the PCB although I have not used their service I cannot confirm its accuracy or quality.
+All the components can be soldered using a regular soldering iron, though soldering the USB-C receptacle might be the biggest hurdle. I have made an adjustment to the USB footprint to allow for a little more error when handsoldering. If needed, the BOM and POS file can be used on JLCPCB to assemble the PCB although I have not used their service I cannot confirm its accuracy or quality. -->
