@@ -1,3 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002
+D 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F https://www.onsemi.com/pub/Collateral/BSS138-D.PDF
+$ENDCMP
+#
+$CMP NUF2221W1T2G
+F https://www.onsemi.com/pdf/datasheet/nuf2221w1t2-d.pdf
+$ENDCMP
+#
 #End Doc Library

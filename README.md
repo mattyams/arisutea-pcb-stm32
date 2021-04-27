@@ -13,14 +13,13 @@ Key modifications to the PCB:
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
 - USB-C ESD rework.
-- Added LED indicators for CAPS and NUM lock as well as layer. (v0.6 - not tested - on order)
+- Added LED indicators for CAPS and NUM lock as well as layer. (v0.6)
 - Updated JSON layout file for this particular keyboard.
 - Original mounting holes have been widened to allow for M2+ standoffs to pass through the PCB to the FR4 plates linked below, so if you planned on using this in a different case other than the one provided or these plates....you might have a bad time. 
-<!-- 
-![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-bottom.png)
-![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/master/graphics/arisutea-pcb-top.png)
-![Arisutea-assembled](https://i.imgur.com/b7rdr05.jpg)
 
+![Arisutea](https://raw.githubusercontent.com/mattyams/arisutea-pcb/dev-stm32/graphics/arisutea-pcb-Back.png)
+![Arisutea-top](https://raw.githubusercontent.com/mattyams/arisutea-pcb/dev-stm32/graphics/arisutea-pcb-Front.png)
+<!--
 Just messing around with different switches.
 ![Arisutea-switches](https://i.imgur.com/Znw3HWQ.jpg)
 
