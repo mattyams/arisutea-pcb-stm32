@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name arisutea-pcb-r1)(type Legacy)(uri ${KIPRJMOD}/arisutea-pcb.lib)(options "")(descr ""))
-  (lib (name arisutea-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/arisutea-pcb-rescue.lib)(options "")(descr ""))
+  (lib (name "arisutea-stm32")(type "KiCad")(uri "${KIPRJMOD}/arisutea.pretty/Symbol Library/arisutea-pcb.kicad_sym")(options "")(descr ""))
 )
