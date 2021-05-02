@@ -13,7 +13,7 @@ I'm fairly confident that this will be the first actual version (v0.3 because...
 Since the layout has been modified yet again I decided to give the project a new name, Arisutea, which translates to Alistair. Obviously keeping the theme running here. 
 
 Key modifications to the PCB:
-- STM32F072 MCU (an STM32F103 should work too)
+- STM32F072 MCU
 - Added in Kailh Hotswap sockets.
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
