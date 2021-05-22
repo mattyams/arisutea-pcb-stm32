@@ -25,9 +25,7 @@ fp-info-cache
 *.xml
 *.csv
 
-# Dev files
+# Other Things
 dev/
 plot/
-graphics/arisutea_logo.dxf
-graphics/arisutea_logo.png
 arisutea-pcb-backups/
