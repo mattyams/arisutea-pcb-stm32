@@ -1,6 +1,6 @@
 # THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING!
 - [X] v0.3 STM32 PCBs ordered 05/01/21
-- [ ] Assemble Arisutea PCB once received
+- [X] Assemble Arisutea PCB once received 05/21/21
 - [ ] Assemble Acrylic Case to Arisutea STM32 design
 - [ ] Design 'New' Acrylic Case to Arisutea STM32 design
 - [ ] Edit QMK firmware for Arisutea STM32 design
