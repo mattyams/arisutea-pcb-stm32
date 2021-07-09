@@ -6,8 +6,8 @@
 
   (title_block
     (title "Arisutea STM32 Keyboard")
-    (date "2021-05-01")
-    (rev "STM32 0.3")
+    (date "2021-06-14")
+    (rev "STM32 0.4")
     (company "3x6 Design")
   )
 
