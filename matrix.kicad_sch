@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid f5c42611-2e77-4a34-ba27-d013c8cc219e)
 
@@ -6,7 +6,7 @@
 
   (title_block
     (title "Arisutea STM32 Keyboard")
-    (date "2021-06-14")
+    (date "2021-08-11")
     (rev "STM32 0.4")
     (company "3x6 Design")
   )

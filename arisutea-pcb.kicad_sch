@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210621) (generator eeschema)
 
   (uuid 54849dc6-a610-49d5-a4c6-7513e44d8d15)
 
@@ -6,9 +6,9 @@
 
   (title_block
     (title "Arisutea STM32 Keyboard")
-    (date "2021-06-14")
+    (date "2021-08-11")
     (rev "STM32 0.4")
-    (company "3x6 Design")
+    (company "mattyams")
   )
 
   (lib_symbols
@@ -4010,7 +4010,7 @@
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-00005c4ef302/" (page "2"))
+    (path "/00000000-0000-0000-0000-00005c4ef302" (page "2"))
   )
 
   (symbol_instances
@@ -4106,111 +4106,6 @@
     )
     (path "/55a931b3-5041-4752-950b-e9181acd1edb"
       (reference "C15") (unit 1) (value "22pF") (footprint "arisutea-STM32:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060c5b19e"
-      (reference "D67") (unit 1) (value "SMF6.0CA") (footprint "arisutea-STM32:D_SOD-123")
-    )
-    (path "/00000000-0000-0000-0000-00006032001a"
-      (reference "F1") (unit 1) (value "500mA") (footprint "arisutea-STM32:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c583efc"
-      (reference "H1") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c584371"
-      (reference "H2") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c18d"
-      (reference "H3") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c1e9"
-      (reference "H4") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c249"
-      (reference "H5") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c2a7"
-      (reference "H6") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c305"
-      (reference "H7") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-00005c59c367"
-      (reference "H8") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
-    )
-    (path "/00000000-0000-0000-0000-000060a4d38b"
-      (reference "J1") (unit 1) (value "PROG") (footprint "arisutea-STM32:PinHeader_2x04_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-000060a9c1f0"
-      (reference "LED1") (unit 1) (value "NUM_LOCK") (footprint "arisutea-STM32:LED_IN-S124ARUW")
-    )
-    (path "/00000000-0000-0000-0000-000060a9be3d"
-      (reference "LED2") (unit 1) (value "CAPS_LOCK") (footprint "arisutea-STM32:LED_IN-S124ARUW")
-    )
-    (path "/00000000-0000-0000-0000-000060a9c79c"
-      (reference "LED3") (unit 1) (value "FN_LAYER") (footprint "arisutea-STM32:LED_IN-S124ARUW")
-    )
-    (path "/00000000-0000-0000-0000-00006042e29e"
-      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea-STM32:arisutea_logo")
-    )
-    (path "/00000000-0000-0000-0000-0000605b7585"
-      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea-STM32:arisutea_logo")
-    )
-    (path "/00000000-0000-0000-0000-0000606fa0cf"
-      (reference "LOGO3") (unit 1) (value "arm_logo") (footprint "arisutea-STM32:Logo_ARM_powered")
-    )
-    (path "/00000000-0000-0000-0000-0000606fb125"
-      (reference "LOGO4") (unit 1) (value "arm_logo") (footprint "arisutea-STM32:Logo_ARM_powered")
-    )
-    (path "/00000000-0000-0000-0000-0000606fa893"
-      (reference "LOGO5") (unit 1) (value "qmk_logo") (footprint "arisutea-STM32:Logo_QMK_Light")
-    )
-    (path "/00000000-0000-0000-0000-0000606fb592"
-      (reference "LOGO6") (unit 1) (value "qmk_logo") (footprint "arisutea-STM32:Logo_QMK_Light")
-    )
-    (path "/00000000-0000-0000-0000-000060c9ced1"
-      (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/00000000-0000-0000-0000-00005f98f744"
-      (reference "R1") (unit 1) (value "5k1") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005f9a4013"
-      (reference "R2") (unit 1) (value "5k1") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000608cf16a"
-      (reference "R3") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-0000608ccc4f"
-      (reference "R4") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c4cb1b6"
-      (reference "R5") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060a9d461"
-      (reference "R6") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060a9e254"
-      (reference "R7") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000060a9e591"
-      (reference "R8") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c4ca743"
-      (reference "SWR1") (unit 1) (value "SW_Push1") (footprint "arisutea-STM32:SW_SPST_TL3342")
-    )
-    (path "/00000000-0000-0000-0000-0000606b06b4"
-      (reference "U1") (unit 1) (value "STM32F072-LQFP48") (footprint "arisutea-STM32:LQFP-48_7x7mm_P0.5mm")
-    )
-    (path "/00000000-0000-0000-0000-0000606ebb72"
-      (reference "U2") (unit 1) (value "NUF2221W1T2G") (footprint "arisutea-STM32:SOT-363_SC-70-6_Handsoldering")
-    )
-    (path "/00000000-0000-0000-0000-00006070fccb"
-      (reference "U3") (unit 1) (value "TLV70233") (footprint "arisutea-STM32:SOT-23-5_HandSoldering")
-    )
-    (path "/00000000-0000-0000-0000-0000603f7935"
-      (reference "USB1") (unit 1) (value "USB_C_HRO_TYPE-C-31-M-12-USB_Type-C") (footprint "arisutea-STM32:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering")
-    )
-    (path "/bbdaea92-97f1-4918-a094-952492bc9fac"
-      (reference "Y1") (unit 1) (value "7V-16.000MAAE-T") (footprint "arisutea-STM32:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c51fbf3"
       (reference "D1") (unit 1) (value "D0") (footprint "arisutea-STM32:D_SOD-123")
@@ -4410,6 +4305,93 @@
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c66ecb3"
       (reference "D66") (unit 1) (value "D0") (footprint "arisutea-STM32:D_SOD-123")
     )
+    (path "/00000000-0000-0000-0000-000060c5b19e"
+      (reference "D67") (unit 1) (value "SMF6.0CA") (footprint "arisutea-STM32:D_SOD-123")
+    )
+    (path "/00000000-0000-0000-0000-00006032001a"
+      (reference "F1") (unit 1) (value "500mA") (footprint "arisutea-STM32:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c583efc"
+      (reference "H1") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c584371"
+      (reference "H2") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c18d"
+      (reference "H3") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c1e9"
+      (reference "H4") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c249"
+      (reference "H5") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c2a7"
+      (reference "H6") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c305"
+      (reference "H7") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-00005c59c367"
+      (reference "H8") (unit 1) (value "ThroughHole") (footprint "arisutea-STM32:Generic-Mounthole")
+    )
+    (path "/00000000-0000-0000-0000-000060a4d38b"
+      (reference "J1") (unit 1) (value "PROG") (footprint "arisutea-STM32:PinHeader_2x04_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000060a9c1f0"
+      (reference "LED1") (unit 1) (value "NUM_LOCK") (footprint "arisutea-STM32:LED_IN-S124ARUW")
+    )
+    (path "/00000000-0000-0000-0000-000060a9be3d"
+      (reference "LED2") (unit 1) (value "CAPS_LOCK") (footprint "arisutea-STM32:LED_IN-S124ARUW")
+    )
+    (path "/00000000-0000-0000-0000-000060a9c79c"
+      (reference "LED3") (unit 1) (value "FN_LAYER") (footprint "arisutea-STM32:LED_IN-S124ARUW")
+    )
+    (path "/00000000-0000-0000-0000-00006042e29e"
+      (reference "LOGO1") (unit 1) (value "arisutea_logo") (footprint "arisutea-STM32:arisutea_logo")
+    )
+    (path "/00000000-0000-0000-0000-0000605b7585"
+      (reference "LOGO2") (unit 1) (value "arisutea_logo") (footprint "arisutea-STM32:arisutea_logo")
+    )
+    (path "/00000000-0000-0000-0000-0000606fa0cf"
+      (reference "LOGO3") (unit 1) (value "arm_logo") (footprint "arisutea-STM32:Logo_ARM_powered")
+    )
+    (path "/00000000-0000-0000-0000-0000606fb125"
+      (reference "LOGO4") (unit 1) (value "arm_logo") (footprint "arisutea-STM32:Logo_ARM_powered")
+    )
+    (path "/00000000-0000-0000-0000-0000606fa893"
+      (reference "LOGO5") (unit 1) (value "qmk_logo") (footprint "arisutea-STM32:Logo_QMK_Light")
+    )
+    (path "/00000000-0000-0000-0000-0000606fb592"
+      (reference "LOGO6") (unit 1) (value "qmk_logo") (footprint "arisutea-STM32:Logo_QMK_Light")
+    )
+    (path "/00000000-0000-0000-0000-000060c9ced1"
+      (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/00000000-0000-0000-0000-00005f98f744"
+      (reference "R1") (unit 1) (value "5k1") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005f9a4013"
+      (reference "R2") (unit 1) (value "5k1") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-0000608cf16a"
+      (reference "R3") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-0000608ccc4f"
+      (reference "R4") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c4cb1b6"
+      (reference "R5") (unit 1) (value "10K") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060a9d461"
+      (reference "R6") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060a9e254"
+      (reference "R7") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000060a9e591"
+      (reference "R8") (unit 1) (value "470") (footprint "arisutea-STM32:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c51ee71"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "arisutea-STM32:SW_Hotswap_Kailh_1.00u")
     )
@@ -4607,6 +4589,24 @@
     )
     (path "/00000000-0000-0000-0000-00005c4ef302/00000000-0000-0000-0000-00005c66ec9e"
       (reference "SW66") (unit 1) (value "SW_Push") (footprint "arisutea-STM32:SW_Hotswap_Kailh_1.00u")
+    )
+    (path "/00000000-0000-0000-0000-00005c4ca743"
+      (reference "SWR1") (unit 1) (value "SW_Push1") (footprint "arisutea-STM32:SW_SPST_TL3342")
+    )
+    (path "/00000000-0000-0000-0000-0000606b06b4"
+      (reference "U1") (unit 1) (value "STM32F072-LQFP48") (footprint "arisutea-STM32:LQFP-48_7x7mm_P0.5mm")
+    )
+    (path "/00000000-0000-0000-0000-0000606ebb72"
+      (reference "U2") (unit 1) (value "NUF2221W1T2G") (footprint "arisutea-STM32:SOT-363_SC-70-6_Handsoldering")
+    )
+    (path "/00000000-0000-0000-0000-00006070fccb"
+      (reference "U3") (unit 1) (value "TLV70233") (footprint "arisutea-STM32:SOT-23-5_HandSoldering")
+    )
+    (path "/00000000-0000-0000-0000-0000603f7935"
+      (reference "USB1") (unit 1) (value "USB_C_HRO_TYPE-C-31-M-12-USB_Type-C") (footprint "arisutea-STM32:USB_C_Receptacle_HRO_TYPE-C-31-M-12-HandSoldering")
+    )
+    (path "/bbdaea92-97f1-4918-a094-952492bc9fac"
+      (reference "Y1") (unit 1) (value "7V-16.000MAAE-T") (footprint "arisutea-STM32:Crystal_SMD_TXC_7M-4Pin_3.2x2.5mm_HandSoldering")
     )
   )
 )
