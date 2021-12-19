@@ -1,11 +1,11 @@
 # THIS IS STILL A WIP! NO GUARANTEES ON ANYTHING!
 - [X] v0.3 STM32 PCBs ordered 05/01/21
 - [X] Assemble Arisutea PCB once received 05/21/21
-- [ ] Assemble Acrylic Case to Arisutea STM32 design
-- [ ] Edit QMK firmware for Arisutea STM32 design
+- [X] Assemble Acrylic Case to Arisutea STM32 design
+- [X] Edit QMK firmware for Arisutea STM32 design
 # Arisutea - Arisu Keyboard PCB with More Modifications...now with MORE!
 ## Disclaimer: Use these files at your own risk.
-I'm fairly confident that this will be the first actual version (v0.3 because...reasons...) of the STM32 version of my Arisutea board. Confident enought that I am actually going to send it out for fabrication at JLCPCB today (5/1/2021). See the notes below on the modification for this version. You will need KiCad 5.99 to view/edit these files.
+Fairly confident that this will be the first actual version (v0.3 because...reasons...) of the STM32 version of the Arisutea board. See the notes below on the modification for this version. You will need KiCad 5.99 to view/edit these files.
 
 アリステア PCB designed using KiCad. The layout was originally created by FateNozomi, inspired by Lyn's EM7 and TGR Alice with some modification. The layout was then modified by CorruptedJef and robotictomato to add USB-C, ESD and to shift/add some keys. This inspired me to modify the layout further by adding an STM32 and the ability to swap your switches out whenever you want and to make some keys a little more permenant. I have designed many boards in the past but never a keyboard so this is my first crack at it and I figured why not go all out? If you notice any issue please open an issue and we can discuss!
 
@@ -13,7 +13,7 @@ Since the layout has been modified yet again I decided to give the project a new
 
 Key modifications to the PCB:
 - STM32F072 MCU
-  - STM32F102 can be used but a crystal will need to be placed at Y1
+  - STM32F102 can be used but a crystal will need to be placed at Y1 (v0.4 - not tested)
 - Added in Kailh Hotswap sockets.
 - Addition of full backspace position, connected to switch 59 (row 0, column 13).
   - Removed switch 63 and repositioned switch 59 to add full backspace position.
